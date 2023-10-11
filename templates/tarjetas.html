@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .jumbo{
+            text-align: center;
+            background: -webkit-linear-gradient(270deg, white, green);
+            color: white;
+            margin: 0;
+        }
+        .menu{
+            background-color: green;
+        }
+        .menu a{
+            color: white;
+            font-size: large;
+        }
+        .menu a:hover{
+            font-weight: bold;
+        }
+        .separacion{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid jumbo ">
+        <div class="container">
+          <h1>PRACTICA BOOTSTRAP SEMANA 3</h1>
+          <p>Desarrollo de aplicaciones web C3</p>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm menu">
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('index') }}">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('tarjetas') }}">EQUIPO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('tablas') }}">PRODUCTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('formularios') }}">NUEVO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('formularios') }}">CONTACTANOS</a>
+          </li>          
+        </ul>
+    </nav>
+    <div class="container text-center separacion">
+        <h2>TARJETAS</h2>
+    </div>
+    <div class="container-fluid ">
+        <div class="d-flex justify-content-around separacion">
+            <div class="card" style="width:20%">
+                <img class="card-img-top" src="IMG/person1.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+              <div class="card" style="width:20%">
+                <img class="card-img-top" src="IMG/person2.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+              <div class="card" style="width:20%">
+                <img class="card-img-top" src="IMG/person3.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+              <div class="card" style="width:20%">
+                <img class="card-img-top" src="IMG/person4.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+              
+        </div>
+        <div class="d-flex justify-content-around separacion">
+            <div class="card" style="width:20%">
+                <img class="card-img-top" src="IMG/person5.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+              <div class="card" style="width:20%">
+                <img class="card-img-top" src="IMG/person6.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+              <div class="card" style="width:20%">
+                <img class="card-img-top" src="IMG/person1.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">John Doe</h4>
+                  <p class="card-text">Some example text.</p>
+                  <a href="#" class="btn btn-primary">See Profile</a>
+                </div>
+              </div>
+
+              
+        </div>
+    </div>
+</body>
+</html>
