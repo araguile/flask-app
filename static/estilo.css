@@ -20,7 +20,7 @@
             font-weight: bold;
         }
         body{
-          background:-webkit-radial-gradient(center, 50em 400px, #B3204D, black);
+          background:-webkit-radial-gradient(center, 50em 500px, #B3204D, black);
           color: #EDF6EE;
         } 
         h4.title{
@@ -45,9 +45,11 @@
           text-align: center;
         }
         .separacion{
-            margin-top: 30px;
-                     
+            margin-top: 30px;                     
         }
+        .separation{
+          padding-top: 1em;                     
+        }       
         .footer{
             background-color: #111;   
             text-align: center;
