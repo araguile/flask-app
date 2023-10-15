@@ -1,36 +1,56 @@
+@import url('//fonts.googleapis.com/css?family=Audiowide');
+@import url('//fonts.googleapis.com/css?family=Press+Start+2P');
 
         .jumbo{
             text-align: center;
-            background: -webkit-radial-gradient(circle, #151101, black);
+            background: -webkit-linear-gradient(270deg, #151101, #412E28);
             color: #B3204D;
             margin: 0;
-           
+            padding: 5px;
+            background-image: url("/static/img/logo.jpg");
+            background-size:cover;
+            background-position: 100% 50%;
+        }
+        .formulario{
+          /* background:-webkit-radial-gradient(center, 50em 200px, #EDF6EE, #151101); */
+          background:#D1C089;
+        }
+        .img2{
+          width: 500px;
+          height: 400px;
+          object-fit: cover;
         }
         .menu{
-            background:black;   
-           
+            /* background:-webkit-linear-gradient(left, #151101, #B3204D, #151101);    */
+            background:-webkit-radial-gradient(center, 50em 100px, #412E28, #151101);
                   
         }
         .menu a{
             color: #EDF6EE;
             font-size: large;            
             text-align: center;
-        }
-        .menu a:hover{
             font-weight: bold;
         }
+        .menu a:hover{
+            /* font-weight: bold; */
+            text-decoration: underline
+        }
         body{
-          background:-webkit-radial-gradient(center, 50em 500px, #B3204D, black);
-          color: #EDF6EE;
+          /* background:-webkit-radial-gradient(center, 50em 500px, #B3204D, black); */
+          background:#EDF6EE;
+          color: #151101; 
         } 
         h4.title{
           color: black;
         }
         h1.header1{
           color: white;
-          text-align: right;
-          font-style: italic;
-          display: inline;
+          text-align: center;
+          /* font-style: italic; */
+          padding: 0%;
+          margin: 0%;
+          font-family: 'Audiowide'
+          /* display: inline; */
         }  
         h1.header2{
           color: #B3204D;
@@ -38,11 +58,18 @@
           font-weight: bold;
           display: inline;
         }
-        h1.header3{
+        h5.header3{
           color: white;
+          padding: 0%;
+          margin: 0%;
+          font-family: 'Press Start 2P';
         }        
         h2.headertekst {
           text-align: center;
+        }
+        h6.contactanos {
+          text-align: left;
+          color: black;
         }
         .separacion{
             margin-top: 30px;                     
@@ -53,6 +80,20 @@
         .footer{
             background-color: #111;   
             text-align: center;
-            color: EDF6EE;
+            color: #EDF6EE;
             padding: 15px;
         }
+        ul, li {
+          margin-top: 0px;
+          padding-top: 0px;
+          list-style: none;
+          padding: 0px;
+          margin: 0px;
+          display: inline-flex;
+          margin-left: 30px;
+          color:white;
+          font-size:24px;
+      }
+      a{  
+        color:white;
+      }
