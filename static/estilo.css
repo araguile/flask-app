@@ -12,18 +12,15 @@
             background-position: 100% 50%;
         }
         .formulario{
-          /* background:-webkit-radial-gradient(center, 50em 200px, #EDF6EE, #151101); */
           background:#D1C089;
         }
         .img2{
-          width: 500px;
+          width: 445px;
           height: 400px;
           object-fit: cover;
         }
         .menu{
-            /* background:-webkit-linear-gradient(left, #151101, #B3204D, #151101);    */
-            background:-webkit-radial-gradient(center, 50em 100px, #412E28, #151101);
-                  
+            background:-webkit-radial-gradient(center, 50em 100px, #412E28, #151101);                  
         }
         .menu a{
             color: #EDF6EE;
@@ -32,11 +29,9 @@
             font-weight: bold;
         }
         .menu a:hover{
-            /* font-weight: bold; */
             text-decoration: underline
         }
         body{
-          /* background:-webkit-radial-gradient(center, 50em 500px, #B3204D, black); */
           background:#EDF6EE;
           color: #151101; 
         } 
@@ -46,11 +41,11 @@
         h1.header1{
           color: white;
           text-align: center;
-          /* font-style: italic; */
           padding: 0%;
           margin: 0%;
-          font-family: 'Audiowide'
-          /* display: inline; */
+          font-family: 'Audiowide';
+          text-shadow:1px 1px 0 #fff, 4px 4px 0 #000;
+
         }  
         h1.header2{
           color: #B3204D;
@@ -63,6 +58,7 @@
           padding: 0%;
           margin: 0%;
           font-family: 'Press Start 2P';
+          text-shadow: 5px 5px 5px #000;      
         }        
         h2.headertekst {
           text-align: center;
